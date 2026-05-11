@@ -1,0 +1,29 @@
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+WORKDIR /app
+
+COPY src/Financa.Domain/Financa.Domain.csproj           src/Financa.Domain/
+COPY src/Financa.Contracts/Financa.Contracts.csproj     src/Financa.Contracts/
+COPY src/Financa.Application/Financa.Application.csproj src/Financa.Application/
+COPY src/Financa.Data/Financa.Data.csproj               src/Financa.Data/
+COPY src/Financa.Api/Financa.Api.csproj                 src/Financa.Api/
+
+RUN dotnet restore src/Financa.Api/Financa.Api.csproj
+
+COPY . .
+
+RUN dotnet publish src/Financa.Api/Financa.Api.csproj \
+    -c Release \
+    -o /app/publish \
+    --no-restore
+
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
+WORKDIR /app
+
+COPY --from=build /app/publish .
+
+ENV ASPNETCORE_URLS=http://+:8080
+ENV ASPNETCORE_ENVIRONMENT=Production
+
+EXPOSE 8080
+
+ENTRYPOINT ["dotnet", "Financa.Api.dll"]
