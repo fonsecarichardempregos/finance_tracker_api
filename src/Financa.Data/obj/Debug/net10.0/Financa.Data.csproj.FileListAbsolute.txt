@@ -1,0 +1,17 @@
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\bin\Debug\net10.0\Financa.Data.deps.json
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\bin\Debug\net10.0\Financa.Data.runtimeconfig.json
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\bin\Debug\net10.0\Financa.Data.dll
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\bin\Debug\net10.0\Financa.Data.pdb
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\bin\Debug\net10.0\Financa.Domain.dll
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\bin\Debug\net10.0\Financa.Domain.pdb
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\obj\Debug\net10.0\Financa.Data.csproj.AssemblyReference.cache
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\obj\Debug\net10.0\Financa.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\obj\Debug\net10.0\Financa.Data.AssemblyInfoInputs.cache
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\obj\Debug\net10.0\Financa.Data.AssemblyInfo.cs
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\obj\Debug\net10.0\Financa.Data.csproj.CoreCompileInputs.cache
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\obj\Debug\net10.0\Financa..8152070A.Up2Date
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\obj\Debug\net10.0\Financa.Data.dll
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\obj\Debug\net10.0\refint\Financa.Data.dll
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\obj\Debug\net10.0\Financa.Data.pdb
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\obj\Debug\net10.0\Financa.Data.genruntimeconfig.cache
+C:\projetos\finance_tracker\finance_tracker_api\src\Financa.Data\obj\Debug\net10.0\ref\Financa.Data.dll

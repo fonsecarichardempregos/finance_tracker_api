@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uOH+768/MTc=",
+  "success": true,
+  "projectFilePath": "C:\\projetos\\finance_tracker\\finance_tracker_api\\src\\Financa.Application\\Financa.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fonse\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\fonse\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\fonse\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
