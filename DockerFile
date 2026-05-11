@@ -11,6 +11,7 @@ RUN dotnet restore src/Financa.Api/Financa.Api.csproj
 
 COPY . .
 
+
 RUN dotnet publish src/Financa.Api/Financa.Api.csproj \
     -c Release \
     -o /app/publish \
