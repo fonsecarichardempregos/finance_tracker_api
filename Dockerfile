@@ -1,20 +1,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /app
 
-COPY src/Financa.Domain/Financa.Domain.csproj           src/Financa.Domain/
-COPY src/Financa.Contracts/Financa.Contracts.csproj     src/Financa.Contracts/
-COPY src/Financa.Application/Financa.Application.csproj src/Financa.Application/
-COPY src/Financa.Data/Financa.Data.csproj               src/Financa.Data/
-COPY src/Financa.Api/Financa.Api.csproj                 src/Financa.Api/
-
-RUN dotnet restore src/Financa.Api/Financa.Api.csproj
-
 COPY . .
 
 RUN dotnet publish src/Financa.Api/Financa.Api.csproj \
     -c Release \
-    -o /app/publish \
-    --no-restore
+    -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 WORKDIR /app
